@@ -1,0 +1,389 @@
+@import '../../../../styles/breakPoints';
+
+@include FHDScreen {
+    .destination {
+        .img-side {
+            .header {
+                font-size: 30px;
+            }
+
+            .planet-img {
+                max-width: 75%;
+            }
+        }
+
+        .content-side {
+            width: 45%;
+            height: 65%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+            .small-buttons {
+                font-size: 25px;
+            }
+
+            .article-component {
+                width: 100%;
+                height: 60%;
+
+                .header {
+                    font-size: 150px;
+                }
+
+                .description {
+                    font-size: 30px;
+                    width: fit-content;
+                    line-height: 40px;
+                }
+
+
+            }
+        }
+    }
+}
+
+
+@include MidScreen {
+    .destination {
+        .img-side {
+            height: 85%;
+
+            .header {
+                font-size: 25px;
+            }
+
+            .planet-img {
+                max-width: 75%;
+            }
+        }
+
+        .content-side {
+            width: 45%;
+            height: 75%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+            .small-buttons {
+                font-size: 23px;
+            }
+
+            .article-component {
+                width: 100%;
+                height: 60%;
+
+                .header {
+                    font-size: 125px;
+                }
+
+                .description {
+                    font-size: 23px;
+                    width: fit-content;
+                    line-height: 40px;
+                }
+            }
+        }
+    }
+}
+
+@include Tablet {
+    .destination {
+
+        .img-side {
+            height: 85%;
+
+            .header {
+                font-size: 20px;
+            }
+
+            .planet-img {
+                max-width: 75%;
+            }
+        }
+
+        .content-side {
+            width: 45%;
+            height: 75%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+            .small-buttons {
+                font-size: 20px;
+            }
+
+            .article-component {
+                width: 100%;
+                height: 50%;
+
+                .header {
+                    font-size: 75px;
+                }
+
+                .description {
+                    font-size: 16px;
+                    width: fit-content;
+                    line-height: 22px;
+                }
+            }
+
+            .content-side-footer {
+                .container {
+                    height: 50px;
+
+                    .time-avg {
+                        font-size: 14px;
+                    }
+
+                    .data {
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@include SmallTablet {
+    .destination {
+        .destination-wrapper {
+            justify-content: space-between;
+            align-items: flex-end;
+            flex-direction: column;
+            width: 80%;
+            height: 80%;
+
+            .img-side {
+                height: 50%;
+                width: 100%;
+                align-items: center;
+
+                .header {
+                    font-size: 20px;
+                }
+
+                .planet-img {
+                    max-width: 50%;
+                }
+            }
+
+            .content-side {
+                width: 100%;
+                height: 45%;
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                justify-content: space-between;
+
+                .small-buttons-component {
+                    width: 50%;
+
+                    .small-buttons {
+                        font-size: 20px;
+                    }
+                }
+
+                .article-component {
+                    width: 100%;
+                    height: 50%;
+                    align-items: center;
+                    text-align: center;
+
+                    .header {
+                        font-size: 75px;
+                    }
+
+                    .description {
+                        font-size: 18px;
+                        width: fit-content;
+                        line-height: 30px;
+                    }
+                }
+
+                .content-side-footer {
+                    width: 80%;
+                    justify-content: center;
+
+                    .container {
+                        height: 50px;
+                        width: 35%;
+                        align-items: center;
+
+                        .time-avg {
+                            font-size: 14px;
+                        }
+
+                        .data {
+                            font-size: 20px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+@include phone {
+    .destination {
+        .destination-wrapper {
+            justify-content: space-between;
+            align-items: flex-end;
+            flex-direction: column;
+            width: 80%;
+            height: 78%;
+
+            .img-side {
+                height: 45%;
+                width: 100%;
+                align-items: center;
+
+                .header {
+                    font-size: 16px;
+                }
+
+                .planet-img {
+                    max-width: 45%;
+                }
+            }
+
+            .content-side {
+                width: 100%;
+                height: 50%;
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                justify-content: space-between;
+
+                .small-buttons-component {
+                    width: 50%;
+
+                    .small-buttons {
+                        font-size: 16px;
+                    }
+                }
+
+                .article-component {
+                    width: 100%;
+                    height: 50%;
+                    align-items: center;
+                    text-align: center;
+
+                    .header {
+                        font-size: 60px;
+                    }
+
+                    .description {
+                        font-size: 16px;
+                        width: fit-content;
+                        line-height: 20px;
+                    }
+                }
+
+                .content-side-footer {
+                    width: 80%;
+                    padding: 15px 0;
+                    justify-content: center;
+
+                    .container {
+                        height: 40px;
+                        width: 35%;
+                        align-items: center;
+
+                        .time-avg {
+                            font-size: 14px;
+                        }
+
+                        .data {
+                            font-size: 20px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@include SmallPhone {
+    .destination {
+        align-items: flex-end;
+
+        .destination-wrapper {
+            justify-content: space-between;
+            align-items: flex-end;
+            flex-direction: column;
+            width: 80%;
+            height: 80%;
+
+            .img-side {
+                height: 40%;
+                width: 100%;
+                align-items: center;
+
+                .header {
+                    font-size: 16px;
+                }
+
+                .planet-img {
+                    max-width: 55%;
+                }
+            }
+
+            .content-side {
+                width: 100%;
+                height: 55%;
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                justify-content: space-between;
+
+                .small-buttons-component {
+                    width: 60%;
+
+                    .small-buttons {
+                        font-size: 16px;
+                    }
+                }
+
+                .article-component {
+                    width: 100%;
+                    height: 50%;
+                    align-items: center;
+                    text-align: center;
+
+                    .header {
+                        font-size: 50px;
+                    }
+
+                    .description {
+                        font-size: 17px;
+                        width: fit-content;
+                        line-height: 20px;
+                    }
+                }
+
+                .content-side-footer {
+                    width: 100%;
+                    padding: 15px 0;
+                    justify-content: center;
+
+                    .container {
+                        height: 40px;
+                        width: 40%;
+                        align-items: center;
+
+                        .time-avg {
+                            font-size: 11px;
+                        }
+
+                        .data {
+                            font-size: 18px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

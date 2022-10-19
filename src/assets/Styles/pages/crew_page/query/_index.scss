@@ -1,0 +1,303 @@
+@include FHDScreen {
+    .crew-page {
+
+        .content-side {
+
+            .header {
+                font-size: 30px;
+
+                .stage {
+                    margin-right: 25px;
+                }
+            }
+
+            .article-component {
+                height: 40%;
+                width: 100%;
+
+                .presentation {
+                    font-size: 40px;
+                }
+
+                .header {
+                    font-size: 70px;
+                }
+
+                .description {
+                    font-size: 30px;
+                    line-height: 40px;
+
+                }
+            }
+
+            .page-index-buttons {
+                width: 175px;
+
+                .index-button {
+                    width: 20px;
+                    height: 20px;
+                }
+            }
+        }
+    }
+}
+
+
+@include MidScreen {
+    .crew-page {
+
+        .content-side {
+
+            .header {
+                font-size: 25px;
+
+                .stage {
+                    margin-right: 20px;
+                }
+            }
+
+            .article-component {
+                height: 45%;
+                width: 100%;
+
+                .presentation {
+                    font-size: 30px;
+                }
+
+                .header {
+                    font-size: 50px;
+                }
+
+                .description {
+                    font-size: 25px;
+                    line-height: 35px;
+
+                }
+            }
+
+            .page-index-buttons {
+                width: 150px;
+
+                .index-button {
+                    width: 20px;
+                    height: 20px;
+                }
+            }
+        }
+    }
+}
+
+
+
+@include Tablet {
+    .crew-page {
+
+        .content-side {
+
+            .header {
+                font-size: 20px;
+
+                .stage {
+                    margin-right: 18px;
+                }
+            }
+
+            .article-component {
+                height: 45%;
+                width: 100%;
+
+                .presentation {
+                    font-size: 22px;
+                }
+
+                .header {
+                    font-size: 40px;
+                }
+
+                .description {
+                    font-size: 20px;
+                    line-height: 25px;
+
+                }
+            }
+
+        }
+    }
+}
+
+@include SmallTablet {
+    .crew-page {
+        .crew-wrapper {
+            height: 90%;
+            flex-direction: column;
+            justify-content: space-around;
+
+            .content-side {
+                width: 100%;
+                height: 40%;
+                align-items: center;
+                text-align: center;
+
+                .header {
+                    font-size: 20px;
+
+                    .stage {
+                        margin-right: 18px;
+                    }
+                }
+
+                .article-component {
+                    height: 50%;
+                    width: 100%;
+                    align-items: center;
+                    text-align: center;
+
+                    .presentation {
+                        font-size: 22px;
+                    }
+
+                    .header {
+                        font-size: 40px;
+                    }
+
+                    .description {
+                        font-size: 22px;
+                        line-height: 30px;
+
+                    }
+                }
+
+            }
+
+            .image-side {
+                width: 100%;
+                height: 60%;
+                align-items: center;
+            }
+        }
+    }
+}
+
+@include phone {
+    .crew-page {
+        .crew-wrapper {
+            height: 90%;
+            flex-direction: column;
+            justify-content: space-around;
+
+            .content-side {
+                width: 100%;
+                height: 40%;
+                align-items: center;
+                text-align: center;
+
+                .header {
+                    font-size: 18px;
+
+                    .stage {
+                        margin-right: 18px;
+                    }
+                }
+
+                .article-component {
+                    height: 55%;
+                    width: 100%;
+                    align-items: center;
+                    text-align: center;
+
+                    .presentation {
+                        font-size: 18px;
+                    }
+
+                    .header {
+                        font-size: 30px;
+                    }
+
+                    .description {
+                        font-size: 16px;
+                        line-height: 25px;
+
+                    }
+                }
+
+                .page-index-buttons {
+                    width: 100px;
+
+                    .index-button {
+                        width: 15px;
+                        height: 15px;
+                    }
+                }
+
+            }
+
+            .image-side {
+                width: 100%;
+                height: 60%;
+                align-items: center;
+            }
+        }
+    }
+}
+
+@include SmallPhone {
+    .crew-page {
+        .crew-wrapper {
+            height: 90%;
+            flex-direction: column;
+            justify-content: space-around;
+
+            .content-side {
+                width: 100%;
+                height: 50%;
+                align-items: center;
+                text-align: center;
+
+                .header {
+                    font-size: 18px;
+
+                    .stage {
+                        margin-right: 18px;
+                    }
+                }
+
+                .article-component {
+                    height: 45%;
+                    width: 100%;
+                    align-items: center;
+                    text-align: center;
+
+                    .presentation {
+                        font-size: 16px;
+                    }
+
+                    .header {
+                        font-size: 25px;
+                    }
+
+                    .description {
+                        font-size: 14px;
+                        line-height: 20px;
+
+                    }
+                }
+
+                .page-index-buttons {
+                    width: 100px;
+
+                    .index-button {
+                        width: 15px;
+                        height: 15px;
+                    }
+                }
+
+            }
+
+            .image-side {
+                width: 100%;
+                height: 50%;
+                align-items: center;
+            }
+        }
+    }
+}

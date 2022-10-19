@@ -1,0 +1,184 @@
+.App {
+    @include FHDScreen {
+        .home {
+            .article-component {
+                .presentation {
+                    font-size: 40px;
+                }
+
+                .header {
+                    font-size: 225px;
+                }
+
+                .description {
+                    font-size: 40px;
+                    width: 650px;
+                    line-height: 50px;
+                }
+            }
+
+            // button component
+            .Button {
+                height: 400px;
+                width: 400px;
+                font-size: 65px;
+            }
+        }
+    }
+
+
+    @include MidScreen {
+        .home {
+            .article-component {
+                .presentation {
+                    font-size: 28px;
+                }
+
+                .header {
+                    font-size: 150px;
+                }
+
+                .description {
+                    font-size: 28px;
+                    width: 475px;
+                    line-height: 40px;
+                }
+            }
+
+            // button component
+            .Button {
+                height: 300px;
+                width: 300px;
+                font-size: 45px;
+            }
+        }
+    }
+
+
+
+
+    @include SmallTablet {
+        .home {
+            background-image: url('~/src/assets/Images/home/background-home-tablet.jpg');
+
+            .home-wrapper {
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-around;
+
+                .article-component {
+                    height: 45%;
+                    width: 100%;
+                    align-items: center;
+                    justify-content: space-around;
+                    text-align: center;
+
+                    .presentation {
+                        font-size: 28px;
+                    }
+
+                    .header {
+                        font-size: 150px;
+                    }
+
+                    .description {
+                        font-size: 28px;
+                        width: 475px;
+                        line-height: 40px;
+                    }
+                }
+
+                // button component
+                .Button {
+                    height: 300px;
+                    width: 300px;
+                    font-size: 45px;
+                }
+            }
+        }
+    }
+
+
+    @include phone {
+        .home {
+            background-image: url('~/src/assets/Images/home/background-home-mobile.jpg');
+
+            .home-wrapper {
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-around;
+
+                .article-component {
+                    height: 55%;
+                    width: 100%;
+                    align-items: center;
+                    justify-content: space-around;
+                    text-align: center;
+
+                    .presentation {
+                        font-size: 25px;
+                    }
+
+                    .header {
+                        font-size: 100px;
+                    }
+
+                    .description {
+                        font-size: 18px;
+                        width: 300px;
+                        line-height: 25px;
+                    }
+                }
+
+                // button component
+                .Button {
+                    height: 200px;
+                    width: 200px;
+                    font-size: 30px;
+                }
+            }
+        }
+    }
+
+
+    @include SmallPhone {
+        .home {
+            background-image: url('~/src/assets/Images/home/background-home-mobile.jpg');
+
+            .home-wrapper {
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-around;
+
+                .article-component {
+                    height: 50%;
+                    width: 100%;
+                    align-items: center;
+                    justify-content: space-around;
+                    text-align: center;
+
+                    .presentation {
+                        font-size: 20px;
+                    }
+
+                    .header {
+                        font-size: 85px;
+                    }
+
+                    .description {
+                        font-size: 18px;
+                        width: 300px;
+                        line-height: 25px;
+                    }
+                }
+
+                // button component
+                .Button {
+                    height: 185px;
+                    width: 185px;
+                    font-size: 30px;
+                }
+            }
+        }
+    }
+}

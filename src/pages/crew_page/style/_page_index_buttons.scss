@@ -1,0 +1,15 @@
+.crew-page {
+    .page-index-buttons {
+        display: flex;
+        justify-content: space-between;
+        width: 125px;
+
+        .index-button {
+            width: 15px;
+            height: 15px;
+            border-radius: 50%;
+            border: none;
+            background-color: gray;
+        }
+    }
+}

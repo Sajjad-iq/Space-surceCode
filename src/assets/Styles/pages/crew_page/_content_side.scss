@@ -1,0 +1,39 @@
+.crew-page {
+    .content-side {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+
+        .header {
+            font-size: 28px;
+            display: flex;
+            font-weight: 400;
+
+            .stage {
+                color: gray;
+                margin-right: 15px;
+            }
+        }
+
+        .article-component {
+            height: 45%;
+            width: 100%;
+
+            .presentation {
+                font-size: 28px;
+            }
+
+            .header {
+                font-size: 45px;
+            }
+
+            .description {
+                font-size: 22px;
+                width: fit-content;
+                line-height: 35px;
+            }
+        }
+    }
+}

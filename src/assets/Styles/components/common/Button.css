@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Bellefair&display=swap');
+
+.Button {
+    height: 225px;
+    width: 225px;
+    border-radius: 50%;
+    border: none;
+    background: #fff;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-family: 'Bellefair', serif;
+    font-size: 35px;
+    transition: 0.3s;
+}
+
+.Button:hover {
+    outline: 50px solid #979797;
+}

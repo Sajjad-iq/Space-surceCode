@@ -1,0 +1,145 @@
+.App {
+    @include FHDScreen {
+        .Navigation {
+
+            .HR-line {
+                width: 35%;
+                height: 1px;
+            }
+
+            .logo {
+                width: 60px;
+                height: 60px;
+                margin-left: 50px;
+            }
+
+
+            .nav-list {
+                .container {
+                    margin: 0 20px;
+
+                    .Button {
+                        height: 85px;
+                        font-size: 17px;
+                    }
+
+                    .page-index {
+                        font-size: 17px;
+                    }
+                }
+            }
+        }
+    }
+
+
+    @include MidScreen {
+        .Navigation {
+
+            .HR-line {
+                width: 35%;
+                height: 1px;
+            }
+
+            .logo {
+                width: 50px;
+                height: 50px;
+                margin-left: 50px;
+            }
+
+
+            .nav-list {
+                .container {
+                    margin: 0 15px;
+
+                    .Button {
+                        height: 75px;
+                        font-size: 15px;
+                    }
+
+                    .page-index {
+                        font-size: 15px;
+                    }
+                }
+            }
+        }
+    }
+
+
+
+
+
+    @include SmallTablet {
+        .Navigation {
+            top: 0;
+            padding: 0 4%;
+
+            .HR-line {
+                display: none;
+            }
+
+            .logo {
+                width: 50px;
+                height: 50px;
+                margin: 0;
+                margin-top: 5%;
+            }
+
+        }
+    }
+
+    @include phone {
+        .Navigation {
+            width: 100%;
+            top: 5%;
+            align-items: flex-start;
+            padding: 0 4%;
+
+            .HR-line {
+                display: none;
+            }
+
+            .logo {
+                width: 40px;
+                height: 40px;
+                margin: 0;
+            }
+
+
+            .nav-list {
+                display: none;
+            }
+
+            .burger-btn {
+                display: block;
+            }
+        }
+    }
+
+    @include SmallPhone {
+        .Navigation {
+            width: 100%;
+            top: 5%;
+            align-items: flex-start;
+            padding: 0 4%;
+
+            .HR-line {
+                display: none;
+            }
+
+            .logo {
+                width: 40px;
+                height: 40px;
+                margin: 0;
+            }
+
+
+            .nav-list {
+                display: none;
+            }
+
+            .burger-btn {
+                display: block;
+            }
+        }
+    }
+}

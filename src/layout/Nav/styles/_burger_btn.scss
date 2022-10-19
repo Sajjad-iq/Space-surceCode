@@ -1,0 +1,15 @@
+@use '../../../styles/colors' as col;
+
+.Navigation {
+    .burger-btn {
+        background: none;
+        border: none;
+        color: col.$white;
+        display: none;
+
+        .burger-icon {
+            width: 30px;
+            height: 30px;
+        }
+    }
+}

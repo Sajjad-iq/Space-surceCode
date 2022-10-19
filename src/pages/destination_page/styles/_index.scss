@@ -1,0 +1,21 @@
+.destination {
+    width: 100%;
+    height: 100%;
+    background-image: url('~/src/assets/destination/background-destination-desktop.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .destination-wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        width: 80%;
+        height: 80%;
+    }
+}
+
+@import './content_side';
+@import './image_side';
+@import './content_side_footer';

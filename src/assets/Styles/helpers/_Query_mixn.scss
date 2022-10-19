@@ -1,0 +1,52 @@
+@import './breakPoints';
+
+@mixin FHDScreen {
+    @media (min-width:map-get($breakPoints, 'FHDScreen')) {
+        @content
+    }
+}
+
+;
+
+@mixin MidScreen {
+    @media (min-width:map-get($breakPoints, 'MidScreen'))and (max-width: map-get($breakPoints, 'FHDScreen')) {
+        @content
+    }
+}
+
+;
+
+
+
+@mixin Tablet {
+    @media (min-width:map-get($breakPoints, 'Tablet')) and (max-width: map-get($breakPoints, 'DefScreen')) {
+        @content
+    }
+}
+
+;
+
+
+@mixin SmallTablet {
+    @media (min-width:map-get($breakPoints, 'SmallTablet'))and (max-width: map-get($breakPoints, 'Tablet')) {
+        @content
+    }
+}
+
+;
+
+@mixin phone {
+    @media (min-width:map-get($breakPoints, 'phone'))and (max-width: map-get($breakPoints, 'SmallTablet')) {
+        @content
+    }
+}
+
+;
+
+@mixin SmallPhone {
+    @media (min-width:map-get($breakPoints, 'SmallPhone')) and (max-width: map-get($breakPoints, 'phone')) {
+        @content
+    }
+}
+
+;

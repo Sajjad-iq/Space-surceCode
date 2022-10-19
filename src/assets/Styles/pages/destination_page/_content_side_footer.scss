@@ -1,0 +1,31 @@
+@use '../../helpers/colors' as col;
+
+.destination {
+    .content-side {
+        .content-side-footer {
+            display: flex;
+            border-top: 1px solid col.$light_blue ;
+            padding: 25px 0;
+            margin: 15px 0;
+
+            .container {
+                width: 50%;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                height: 60px;
+
+                .time-avg {
+                    font-size: 17px;
+                    font-weight: 400;
+                    color: col.$light_blue;
+                }
+
+                .data {
+                    font-size: 25px;
+                    font-weight: 400;
+                }
+            }
+        }
+    }
+}

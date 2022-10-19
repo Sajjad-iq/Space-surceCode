@@ -1,0 +1,33 @@
+@use '../../helpers/colors' as col;
+
+.Navigation {
+    width: 100%;
+    height: fit-content;
+    position: absolute;
+    top: 5%;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .HR-line {
+        position: absolute;
+        top: 50%;
+        left: 14%;
+        width: 35%;
+        height: 1px;
+        border: none;
+        background: col.$light-blue;
+        z-index: 10;
+    }
+
+    .logo {
+        width: 40px;
+        height: 40px;
+        margin-left: 50px;
+    }
+}
+
+
+@import './buttons';
+@import './burger_btn';

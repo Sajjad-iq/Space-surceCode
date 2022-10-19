@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Bellefair&display=swap');
+
+.small-buttons-component {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.small-buttons {
+    background: none;
+    font-size: 18px;
+    font-family: 'Bellefair', serif;
+    color: white;
+    border: none;
+}
